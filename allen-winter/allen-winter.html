@@ -4,13 +4,29 @@
 	<title>Allen Winter- Actor</title>
 </head>
 <body>
-	<h1>Welcome to the Show!</h1>
+	<script type="text/javascript">
+		class HelloMessage extends React.Component {
+			render() {
+				return (
+					<div>
+						Hello {this.props.name}
+					</div>
+					);
+			}
+		}
+		ReactDOM.render(
+		<HelloMessage name="Allen" />,
+		mountNode
+		);
+	</script>
 	<img src="Media/Headshot.jpg">
 	<p>I'm Allen Winter and I'm a New York based actor who performs on both Stage and in Voice Over. This should be more exciting once I come up with a better paragraph. Have fun exploring the temporary links in the header 2's.</p>
 	<h2><a href="Media/Demo_Allen_Winter.mp3"</a>Character Demo</h2>
-	<h2><a href="About/Information.html"</a>About Me</h2>
-	<h2><a href="Resume/resume.html"</a>Resume</h2>
-	<h2><a href="Media/mediaClips.html"</a>Media</h2>
-	<h2><a href="Contact/contactMe.html"</a>Contact</h2>
+	<ul>
+		<li><h2><a href="About/Information.html"</a>About Me</h2></li>
+		<li><h2><a href="Resume/resume.html"</a>Resume</h2></li>
+		<li><h2><a href="Media/mediaClips.html"</a>Media</h2></li>
+		<li><h2><a href="Contact/contactMe.html"</a>Contact</h2></li>
+	</ul>
 </body>
 </html>
