@@ -1,0 +1,14 @@
+body {
+	background-color: crimson;
+}
+h1 {
+	font-family: "Baskerville Old Face";
+	font-size: 300%;
+}	
+p {
+	margin-left: 5%;
+	border: 2px solid purple;
+	padding: 25px;
+	font-family: "Baskerville Old Face";
+}
+
