@@ -2,15 +2,38 @@ body {
 	background-color: crimson;
 }
 h1 {
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", arial, sans-serif;
 	font-size: 300%;
 }	
 ul {
 	margin-left: 5%;
-	border: 2px solid purple;
+	margin-top: 0%
 	padding: 25px;
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", arial, sans-serif;
 }
 h2 {
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", arial, sans-serif;
+}
+#navLinks {
+	border: 5px solid #39CCCC;
+}
+#Bio {
+	border: 3px dotted black;
+	font-size: 36px;
+}
+.center {
+	margin-top: 2.5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+a:link {
+	color:black;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#39CCCC;
 }

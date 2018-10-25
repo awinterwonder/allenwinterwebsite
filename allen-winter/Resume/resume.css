@@ -2,10 +2,7 @@ body {
 	background-color: crimson;
 }
 h1 {
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", Arial, sans-serif;
 	font-size: 300%;
 }	
-p {
-	border: 1px solid grey;
-	padding: 30px;
-}
+

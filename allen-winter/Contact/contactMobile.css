@@ -1,0 +1,16 @@
+@media screen and (max-device-width: 480px) {
+	body {
+		background-color: lightblue;
+	}
+	h1 {
+		font-family: "Baskerville Old Face", arial, sans-serif;
+		font-size: 200%;
+	}	
+	h2 {
+		font-family: "Baskerville Old Face", arial, sans-serif;
+	}
+	#Email {
+		border: 8px dotted black;
+		border-width: auto;
+	}
+}

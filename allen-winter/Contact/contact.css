@@ -2,9 +2,12 @@ body {
 	background-color: crimson;
 }
 h1 {
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", arial, sans-serif;
 	font-size: 200%;
 }	
 h2 {
-	font-family: "Baskerville Old Face";
+	font-family: "Baskerville Old Face", arial, sans-serif;
+}
+#Email {
+	border: 8px dotted black;
 }

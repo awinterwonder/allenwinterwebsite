@@ -1,0 +1,29 @@
+@media screen and (max-device-width: 480px) {
+	body{
+		background-color: lightblue;
+	}
+	h1 {
+		font-family: "Baskerville Old Face", arial, sans-serif;
+		font-size: 300%;
+	}	
+	p {
+		font-family: "Baskerville Old Face", arial, sans-serif;
+		color: darkgrey;
+	}
+	h2 {
+		font-family: "Baskerville Old Face", arial, sans-serif;
+	}
+	.frame img {
+		border: 5px ridge black;
+		background-color: grey;
+	}
+	a:link {
+		color:black;
+	}
+	a:visited {
+		color:black;
+	}
+	a:hover {
+		color:grey;
+	}
+}
