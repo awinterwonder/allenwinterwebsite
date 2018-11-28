@@ -8,6 +8,32 @@ h1 {
 h2 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
 }
+ul {
+	margin-left: 5%;
+	margin-top: 0%
+	padding: 25px;
+	font-family: "Baskerville Old Face", arial, sans-serif;
+	list-style-type: none;
+	margin: 0px;
+}
+#navLinks li, h2 {
+	display: inline;
+	padding-left: 50px;
+}
+a.highlight:hover {
+	background-color: white;
+}
 #Email {
 	border: 8px dotted black;
+}
+a:link {
+	color:black;
+	display: inline;
+	list-style-type: none;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#39CCCC;
 }

@@ -16,12 +16,29 @@ h2 {
 	border: 5px ridge black;
 	background-color: grey;
 }
+ul {
+	margin-left: 5%;
+	margin-top: 0%
+	padding: 25px;
+	font-family: "Baskerville Old Face", arial, sans-serif;
+	list-style-type: none;
+	margin: 0px;
+}
+#navLinks li, h2 {
+	display: inline;
+	padding-left: 50px;
+}
+a.highlight:hover {
+	background-color: white;
+}
 a:link {
 	color:black;
+	display: inline;
+	list-style-type: none;
 }
 a:visited {
 	color:black;
 }
 a:hover {
-	color:grey;
+	color:#39CCCC;
 }

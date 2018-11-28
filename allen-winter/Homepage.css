@@ -1,6 +1,20 @@
 body {
 	background-color: crimson;
 }
+header {
+	border: solid 5px black;
+	background-color: white;
+	margin: -9px -8px 10px -8px;
+	padding: 5px;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+footer {
+	background-color: white;
+	margin-bottom: 5px;
+	padding: 5px;
+}
 h1 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
 	font-size: 300%;
@@ -10,30 +24,77 @@ ul {
 	margin-top: 0%
 	padding: 25px;
 	font-family: "Baskerville Old Face", arial, sans-serif;
+	list-style-type: none;
+	margin: 0px;
 }
 h2 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
 }
-#navLinks {
-	border: 5px solid #39CCCC;
+img {
+	height: auto;
+	width: auto;
+	clear: right;
+}
+#navLinks li, h2 {
+	display: inline;
+	padding-left: 50px;
 }
 #Bio {
 	border: 3px dotted black;
 	font-size: 36px;
+	padding: 25px 5px;
+}
+#pointAnimate img {
+	height: 30%;
+	width: 30%;
+}
+#pointAnimate {
+  position: fixed;
+  top: 720px;
+  right: -720px;
+  transition: 1s;
+}
+#pointAnimate:hover {
+  right: 555px;
+  transition: 1s;
 }
 .center {
-	margin-top: 2.5%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%
+}
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+a.highlight:hover {
+	background-color: white;
 }
 a:link {
 	color:black;
+	display: inline;
+	list-style-type: none;
 }
 a:visited {
 	color:black;
 }
 a:hover {
 	color:#39CCCC;
+}
+@keyframes change {
+	0% {border-color: black;}
+	15% {border-color: yellow;}
+	30% {border-color: purple;}
+	45% {border-color: #39CCCC;}
+	60% {border-color: black;}
+	75% {border-color: yellow;}
+	90% {border-color: purple;}
+	100% {border-color: black;}
 }
