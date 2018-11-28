@@ -30,11 +30,11 @@ ul {
 h2 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
 }
-img {
+/*img {
 	height: auto;
 	width: auto;
 	clear: right;
-}
+}*/
 #navLinks li, h2 {
 	display: inline;
 	padding-left: 50px;
@@ -44,24 +44,27 @@ img {
 	font-size: 36px;
 	padding: 25px 5px;
 }
-#pointAnimate img {
-	height: 30%;
-	width: 30%;
+img.pointAnimate {
+	height: small;
+	width: small;
 }
-#pointAnimate {
+.pointAnimate {
   position: fixed;
   top: 720px;
   right: -720px;
   transition: 1s;
 }
-#pointAnimate:hover {
+.pointAnimate:hover {
   right: 555px;
   transition: 1s;
 }
-.center {
+img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	height: auto;
+	width: auto;
+	clear: right;
 }
 .tableContainer {
   display: table;
@@ -98,3 +101,6 @@ a:hover {
 	90% {border-color: purple;}
 	100% {border-color: black;}
 }
+/*div:hover, img {
+
+}*/

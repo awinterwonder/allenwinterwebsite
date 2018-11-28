@@ -1,3 +1,9 @@
+header {
+	border: solid 5px black;
+	background-color: white;
+	margin: -9px -8px 10px -8px;
+	padding: 5px;
+}
 body {
 	background-color: crimson;
 }
@@ -16,6 +22,17 @@ ul {
 #navLinks li, h2 {
 	display: inline;
 	padding-left: 50px;
+}
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
 }
 a.highlight:hover {
 	background-color: white;
