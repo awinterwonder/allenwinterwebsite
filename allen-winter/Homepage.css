@@ -12,20 +12,19 @@ header {
 }
 footer {
 	background-color: white;
-	margin-bottom: 5px;
-	padding: 5px;
+	margin: 0px -10px 5px -12px;
+	padding: 10px;
+	padding-left: 15px;
 }
 h1 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
 	font-size: 300%;
 }	
 ul {
-	margin-left: 5%;
-	margin-top: 0%
-	padding: 25px;
+	margin: -10px 0px -10px 10px;
+	padding: 15px;
 	font-family: "Baskerville Old Face", arial, sans-serif;
 	list-style-type: none;
-	margin: 0px;
 }
 h2 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
@@ -35,27 +34,26 @@ h2 {
 	width: auto;
 	clear: right;
 }*/
+div.Demo {
+	margin-bottom: 5px;
+}
 #navLinks li, h2 {
 	display: inline;
-	padding-left: 50px;
+	padding-left: 40px;
 }
 #Bio {
 	border: 3px dotted black;
 	font-size: 36px;
 	padding: 25px 5px;
 }
-img.pointAnimate {
-	height: small;
-	width: small;
-}
 .pointAnimate {
   position: fixed;
   top: 720px;
-  right: -720px;
+  right: -250px;
   transition: 1s;
 }
 .pointAnimate:hover {
-  right: 555px;
+  right: 1080px;
   transition: 1s;
 }
 img.center {
