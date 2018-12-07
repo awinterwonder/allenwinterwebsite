@@ -1,0 +1,26 @@
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+.pointAnimate {
+  position: absolute;
+  bottom: -52%; 
+  right: 0%;
+  transition: 1s;
+}
+/*.pointAnimate:hover {
+  margin-left: 0px;
+  right: 31%;
+  transition: 1s;
+}*/
+.Demo:hover img {
+	position: static;
+	transition: 1s;
+}
