@@ -1,4 +1,0 @@
-1- How to not have nav bar collapse when in Mobile Mode
-2- click img and get video vs text
-3- Mobile Friendly all pages
-4- Why submission box not work?
