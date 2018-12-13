@@ -4,7 +4,6 @@
 form{
 	border: 5px solid #39CCCC;
 }
-div.middle{
-	margin-left: auto;
-	margin-right: auto;
+img{
+	max-width: 100%;
 }

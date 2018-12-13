@@ -8,8 +8,7 @@ div.gallery img {
 	height: auto;
 }
 div.desc {
-	padding: 10px;
-	padding-left: 0px;
+	padding-top: 10px;
 	text-align: center;
 	background-color: white;
 }

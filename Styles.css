@@ -1,5 +1,5 @@
 body {
-	background-color: crimson;
+	background-color: #CC0000;
 	margin: 0px;
 }
 header {
@@ -29,11 +29,12 @@ ul {
 }
 h2 {
 	font-family: "Baskerville Old Face", arial, sans-serif;
+	margin: 0px;
 }
 div.Demo {
 	margin-bottom: 5px;
 }
-#navLinks li, h2 {
+#navLinks li, #navLinks h2{
 	display: inline;
 	padding-left: 40px;
 }
