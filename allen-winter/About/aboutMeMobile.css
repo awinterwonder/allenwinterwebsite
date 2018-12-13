@@ -1,24 +1,15 @@
-@media screen and (max-device-width: 480px) {
-	body{
-		background-color: lightblue;
-	}
-	h1 {
-		font-family: "Baskerville Old Face", arial, sans-serif;
-		font-size: 300%;
-	}	
-	p {
-		margin-left: 5%;
-		font-family: "Baskerville Old Face", arial, sans-serif;
-	}
-	.center {
-		margin-top: 2.5%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%
-	}
-	#borderBox {
-		border: 5px solid #39CCCC;
-		padding: 25px;
-	}
+.borderBox {
+	border: 5px solid #39CCCC;
+	background-color: grey;
+	padding: 0px 15px;
+	margin: 10px;
+	line-height: 1.6;
+}
+#equipment {
+	font-size: 20px;
+	margin: 0px;
+	list-style-type: circle;
+}
+#story {
+	font-size: 20px;
 }

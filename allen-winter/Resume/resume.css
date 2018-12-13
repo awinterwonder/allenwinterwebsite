@@ -1,28 +1,3 @@
-header {
-	border: solid 5px black;
-	background-color: white;
-	margin: -9px -8px 10px -8px;
-	padding: 5px;
-}
-body {
-	background-color: crimson;
-}
-h1 {
-	font-family: "Baskerville Old Face", Arial, sans-serif;
-	font-size: 300%;
-}	
-ul {
-	margin-left: 5%;
-	margin-top: 0%
-	padding: 25px;
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	list-style-type: none;
-	margin: 0px;
-}
-#navLinks li, h2 {
-	display: inline;
-	padding-left: 50px;
-}
 .tableContainer {
   display: table;
   border-spacing: 10px;
@@ -34,17 +9,9 @@ ul {
   vertical-align: top;
   display: table-cell;
 }
-a.highlight:hover {
-	background-color: white;
+#box {
+	border: 5px dotted #39CCCC;
 }
-a:link {
-	color:black;
-	display: inline;
-	list-style-type: none;
-}
-a:visited {
-	color:black;
-}
-a:hover {
-	color:#39CCCC;
+div.tableRow h1{
+	background-color: grey;
 }

@@ -2,11 +2,26 @@
 <html lang="en">
 <head>
 	<title>Contact Me</title>
-	<link rel="stylesheet" type="text/css" href="contactMobile.css">
-	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="../Styles.css">
+	<link rel="stylesheet" type="text/css" href="contactMobile.css"
+											media="(max-width:480px)">
+	<link rel="stylesheet" type="text/css" href="contactMe.css"
+											media="(min-width:481px)">
+	<meta charset="utf-8">
+	<meta name="Description" content="Want to work with Allen Winter? Have a question or comment? Email him here.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="https://cdn.ckeditor.com/4.11.1/standard/ckeditor.js"></script>
+	<script>
+		CKEDITOR.replace('editor1')
+	</script>
 </head>
+<body>
 <header>
 	<h1>Want to work together? Shoot me an Email.</h1>
+	<a href="https://www.facebook.com/AllenWinterVO"><i class="fab fa-facebook fa-3x"></i></a>
+	<a href="https://twitter.com/awinterwonder?lang=en"><i class="fab fa-twitter fa-3x"></i></a>
+	<a href="https://www.imdb.com/name/nm9457128"><i class="fab fa-imdb fa-3x"></i></a>
 </header>
 <nav id="navLinks">
 	<ul>
@@ -17,10 +32,15 @@
 		<li><h2><a href="../Contact/contactMe.html" class="highlight">Contact</a></h2></li>
 	</ul>
 </nav>
-<body>
-	<img src="../Media/Allen_Chibi_Twitter.png" alt="Header" width="950" height="350">
-	<div id="Email">
-	<h2>There's Gonna be an Email Submission box here</h2>
+	<div class="middle">
+		<img src="../Media/Allen_Chibi_Twitter.png" alt="Banner">
 	</div>
+	<textarea name="editor1"></textarea>
+<footer>
+		&copy; 2018, Allen Winter
+      <br>
+      All trademarks and registered trademarks appearing on 
+      this site are the property of their respective owners.
+</footer>
 </body>
 </html>

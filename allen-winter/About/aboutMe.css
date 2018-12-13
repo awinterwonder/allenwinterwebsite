@@ -1,58 +1,30 @@
-header {
-	border: solid 5px black;
-	background-color: white;
-	margin: -9px -8px 10px -8px;
-	padding: 5px;
+h3 {
+	text-align: center;
+	text-decoration: underline;
 }
-body {
-	background-color: crimson;
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
 }
-h1 {
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	font-size: 300%;
-}	
-p {
-	margin-left: 5%;
-	font-family: "Baskerville Old Face", arial, sans-serif;
+.tableRow {
+  display: table-row;
 }
-h2 {
-	font-family: "Baskerville Old Face", arial, sans-serif;
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
 }
-ul {
-	margin-left: 5%;
-	margin-top: 0%
-	padding: 25px;
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	list-style-type: none;
-	margin: 0px;
-}
-#navLinks li, h2 {
-	display: inline;
-	padding-left: 50px;
-}
-a.highlight:hover {
-	background-color: white;
-}
-.center {
-	margin-top: 2.5%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%
-}
-#borderBox {
+.borderBox {
 	border: 5px solid #39CCCC;
-	padding: 25px;
+	background-color: grey;
+	padding: 0px 15px;
 	margin: 10px;
+	line-height: 1.6;
 }
-a:link {
-	color:black;
-	display: inline;
-	list-style-type: none;
+#equipment {
+	font-size: 20px;
+	margin: 0px;
+	list-style-type: circle;
 }
-a:visited {
-	color:black;
-}
-a:hover {
-	color:#39CCCC;
+#story {
+	font-size: 20px;
 }

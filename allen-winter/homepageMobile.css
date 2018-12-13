@@ -1,4 +1,12 @@
-.pointAnimate {
-  position: fixed;
-  right: -100%;
+img.center{
+	max-height: 516px;
+}
+.Demo{
+	text-align: center;
+}
+#Bio{
+	font-size: 18px;
+}
+header{
+	padding: 0px;
 }

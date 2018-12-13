@@ -1,50 +1,29 @@
-header {
-	border: solid 5px black;
-	background-color: white;
-	margin: -9px -8px 10px -8px;
-	padding: 5px;
-}
-body {
-	background-color: crimson;
-}
-h1 {
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	font-size: 300%;
-}	
-p {
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	color: darkgrey;
-}
-h2 {
-	font-family: "Baskerville Old Face", arial, sans-serif;
-}
-.frame img {
+div.gallery {
 	border: 5px ridge black;
 	background-color: grey;
+	width: 300px;
 }
-ul {
-	margin-left: 5%;
-	margin-top: 0%
-	padding: 25px;
-	font-family: "Baskerville Old Face", arial, sans-serif;
-	list-style-type: none;
-	margin: 0px;
+div.gallery img {
+	width: auto;
+	height: auto;
 }
-#navLinks li, h2 {
-	display: inline;
-	padding-left: 50px;
-}
-a.highlight:hover {
+div.desc {
+	padding: 10px;
+	padding-left: 0px;
+	text-align: center;
 	background-color: white;
 }
-a:link {
-	color:black;
-	display: inline;
-	list-style-type: none;
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
 }
-a:visited {
-	color:black;
+.tableRow {
+  display: table-row;
 }
-a:hover {
-	color:#39CCCC;
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+h4 {
+	margin: 0px;
 }

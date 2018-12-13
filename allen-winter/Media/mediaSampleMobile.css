@@ -1,29 +1,15 @@
-@media screen and (max-device-width: 480px) {
-	body{
-		background-color: lightblue;
-	}
-	h1 {
-		font-family: "Baskerville Old Face", arial, sans-serif;
-		font-size: 300%;
-	}	
-	p {
-		font-family: "Baskerville Old Face", arial, sans-serif;
-		color: darkgrey;
-	}
-	h2 {
-		font-family: "Baskerville Old Face", arial, sans-serif;
-	}
-	.frame img {
-		border: 5px ridge black;
-		background-color: grey;
-	}
-	a:link {
-		color:black;
-	}
-	a:visited {
-		color:black;
-	}
-	a:hover {
-		color:grey;
-	}
+div.gallery {
+	border: 5px ridge black;
+	background-color: grey;
+	width: 300px;
+	margin: 5px;
+}
+div.gallery img {
+	width: auto;
+	height: auto;
+}
+div.desc {
+	padding: 10px;
+	text-align: center;
+	background-color: white;
 }
