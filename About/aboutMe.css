@@ -1,0 +1,30 @@
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+.borderBox {
+	border: 5px solid #39CCCC;
+	background-color: grey;
+	padding: 0px 15px;
+	margin: 10px;
+	line-height: 1.6;
+}
+#equipment {
+	font-size: 20px;
+	margin: 0px;
+	list-style-type: circle;
+}
+#story {
+	font-size: 20px;
+}

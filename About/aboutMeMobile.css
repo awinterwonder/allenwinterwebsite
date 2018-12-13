@@ -1,0 +1,15 @@
+.borderBox {
+	border: 5px solid #39CCCC;
+	background-color: grey;
+	padding: 0px 15px;
+	margin: 10px;
+	line-height: 1.6;
+}
+#equipment {
+	font-size: 20px;
+	margin: 0px;
+	list-style-type: circle;
+}
+#story {
+	font-size: 20px;
+}

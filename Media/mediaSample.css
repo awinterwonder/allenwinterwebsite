@@ -1,0 +1,29 @@
+div.gallery {
+	border: 5px ridge black;
+	background-color: grey;
+	width: 300px;
+}
+div.gallery img {
+	width: auto;
+	height: auto;
+}
+div.desc {
+	padding: 10px;
+	padding-left: 0px;
+	text-align: center;
+	background-color: white;
+}
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+h4 {
+	margin: 0px;
+}

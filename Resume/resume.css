@@ -1,0 +1,17 @@
+.tableContainer {
+  display: table;
+  border-spacing: 10px;
+}
+.tableRow {
+  display: table-row;
+}
+.tableCell {
+  vertical-align: top;
+  display: table-cell;
+}
+#box {
+	border: 5px dotted #39CCCC;
+}
+div.tableRow h1{
+	background-color: grey;
+}

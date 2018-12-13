@@ -1,0 +1,13 @@
+#box {
+	border: 5px dotted #39CCCC;
+}
+.tableRow {
+	border-bottom: solid; 
+	border-color: #7b96bc;
+}
+div.tableRow h1{
+	background-color: grey;
+}
+div.tableCell h2{
+	font-size: 1em;
+}

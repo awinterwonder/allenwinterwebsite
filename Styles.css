@@ -1,0 +1,82 @@
+body {
+	background-color: crimson;
+	margin: 0px;
+}
+header {
+	border: solid 5px black;
+	background-color: white;
+	padding: 0px 5px;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+footer {
+	background-color: white;
+	padding: 10px;
+	padding-left: 15px;
+}
+h1 {
+	font-family: "Baskerville Old Face", arial, sans-serif;
+	font-size: 300%;
+	margin: 0px;
+	text-align: center;
+}	
+ul {
+	margin: -10px 0px -10px 10px;
+	padding: 15px;
+	font-family: "Baskerville Old Face", arial, sans-serif;
+	list-style-type: none;
+}
+h2 {
+	font-family: "Baskerville Old Face", arial, sans-serif;
+}
+div.Demo {
+	margin-bottom: 5px;
+}
+#navLinks li, h2 {
+	display: inline;
+	padding-left: 40px;
+}
+#Bio {
+	border: 3px dotted black;
+	font-size: 36px;
+	padding: 25px 5px;
+}
+a.highlight:hover{
+	background-color: white;
+}
+a:link {
+	color:black;
+	display: inline;
+	list-style-type: none;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color:#39CCCC;
+}
+@keyframes change {
+	0% {border-color: black;}
+	15% {border-color: yellow;}
+	30% {border-color: purple;}
+	45% {border-color: #39CCCC;}
+	60% {border-color: black;}
+	75% {border-color: yellow;}
+	90% {border-color: purple;}
+	100% {border-color: black;}
+}
+/*source: fontawesome*/
+.fab {
+	padding-left: 5px;
+}
+.fa-twitter {
+	color: #38A1F3;	
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-imdb{
+	color: #f3ce13;
+}
+
