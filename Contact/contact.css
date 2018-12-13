@@ -1,6 +1,10 @@
-.middle { 
-	width: 50%;
+.submissionBox{
+	width: 30%;
 }
-header {
-	background-image: "../Media/Allen_Chibi_Twitter.png";
+form{
+	border: 5px solid #39CCCC;
+}
+div.middle{
+	margin-left: auto;
+	margin-right: auto;
 }

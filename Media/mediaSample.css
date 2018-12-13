@@ -16,6 +16,8 @@ div.desc {
 .tableContainer {
   display: table;
   border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .tableRow {
   display: table-row;

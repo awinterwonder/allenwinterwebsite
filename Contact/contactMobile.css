@@ -1,0 +1,18 @@
+#navLinks li, h2 {
+	display: block;
+	padding-left: 40px;
+}
+ul {
+	margin: -10px 0px -10px 10px;
+	padding: 10px
+}
+form{
+	border: 5px solid #39CCCC;
+}s
+img{
+	object-fit: cover;
+}
+div.middle{
+	margin-left: auto;
+	margin-right: auto;
+}

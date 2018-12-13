@@ -11,3 +11,11 @@ div.tableRow h1{
 div.tableCell h2{
 	font-size: 1em;
 }
+#navLinks li, h2 {
+	display: block;
+	padding-left: 40px;
+}
+ul {
+	margin: -10px 0px -10px 10px;
+	padding: 10px
+}
