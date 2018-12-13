@@ -1,3 +1,4 @@
-@media screen and (max-device-width: 480px) {
-	
-	}
+.tableCell {
+	border-bottom: solid;
+	border-color: black;
+}
