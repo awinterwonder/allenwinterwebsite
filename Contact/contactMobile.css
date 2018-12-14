@@ -10,5 +10,5 @@ form{
 	border: 5px solid #39CCCC;
 }
 img{
-	margin-left: -100px;
+	max-width: 100%;
 }
